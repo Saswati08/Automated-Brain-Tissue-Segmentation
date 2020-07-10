@@ -7,7 +7,7 @@ number of training sample (three volumes) with high resolution.
 # Dependencies 
 The .py and .pynb files are written in python version 3.6.9. You need to download **numpy(1.18.5)**, **torch(1.5.x)** and **matplotlib(3.2.2)** before running them.
 # Execute Code
-The dataset can be downloaded from the **[link](https://drive.google.com/file/d/1oDA_CvKPUZ9slfQ-GFlPgON_PACAU_QM/view)** After downloading the dataset you have 
+The dataset can be downloaded from the **[link](https://github.com/Saswati08/Automated-Brain-Tissue-Segmentation/blob/master/Brain_segmentation_dataset.zip)** After downloading the dataset you have 
 to run the **preprocessing.py** file for preprocessing.To run go to terminal and write **python3 preprocessing.py**.
 [**Note** - Make sure the dataset is in the working directory]. This will automatically store the processed .npy file in the working directory.For training you can use different architectures as given in segnet_*.py 
 files. To have an idea how the whole pipeline works as in preprocessing, training and checking on validation you can refer pipe_to_train_and_validate_data.ipynb 
